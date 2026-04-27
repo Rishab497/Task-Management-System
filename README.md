@@ -1,151 +1,180 @@
-# Task Management System
+<div align="center">
 
-A full-stack web application to **organize, track, and manage daily tasks** efficiently with a simple and user-friendly interface.
+# 📋 Task Management System
 
----
+**A full-stack web application to organize, track, and manage your daily tasks — simply and securely.**
 
-## Project Overview
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![XAMPP](https://img.shields.io/badge/XAMPP-FB7A24?style=for-the-badge&logo=xampp&logoColor=white)
 
-The Task Management System is a browser-based application that allows users to:
-- Create, update, and delete tasks  
-- Categorize tasks (e.g., pending, completed)  
-- Track task progress  
-- Manage tasks securely with login authentication  
-
----
-
-## Purpose
-
-This project provides a **structured digital solution** to overcome:
-- Disorganized task tracking  
-- Missed deadlines  
-- Lack of proper task management tools  
+</div>
 
 ---
 
-## Features
+## 📖 Overview
 
-- User Registration & Login  
-- Add Tasks  
-- Edit Tasks  
-- Delete Tasks  
-- Task Categorization  
-- Task Status Tracking  
-- Dynamic UI updates  
-- Secure Authentication  
+The **Task Management System** is a browser-based application that helps individuals stay on top of their work by providing a clean, structured environment to create, track, and manage tasks. Built with a PHP + MySQL backend and a dynamic JavaScript frontend, it offers secure login and full task control — all running locally via XAMPP.
+
+> Developed as part of the **BCA academic program**.
 
 ---
 
-## Tech Stack
+## ✨ Features
 
-**Frontend:**
-- HTML  
-- CSS  
-- JavaScript  
-
-**Backend:**
-- PHP  
-
-**Database:**
-- MySQL  
-
-**Environment:**
-- XAMPP  
+| Feature | Description |
+|---|---|
+| 🔐 **User Authentication** | Register and log in securely |
+| ➕ **Add Tasks** | Create new tasks instantly |
+| ✏️ **Edit Tasks** | Modify task details at any time |
+| 🗑️ **Delete Tasks** | Remove tasks you no longer need |
+| 🏷️ **Task Categorization** | Organize tasks by status (Pending / Completed) |
+| 📊 **Progress Tracking** | Monitor which tasks are done and which are pending |
+| ⚡ **Dynamic UI** | Interface updates without full page reloads |
 
 ---
 
-## Project Structure
+## 🛠️ Tech Stack
+
+### Frontend
+- **HTML5** — Page structure
+- **CSS3** — Styling and layout
+- **JavaScript** — Dynamic interactions
+
+### Backend
+- **PHP** — Server-side logic and API endpoints
+
+### Database
+- **MySQL** — Stores users and task data
+
+### Environment
+- **XAMPP** — Local server (Apache + MySQL)
+
+---
+
+## 📁 Project Structure
+
+```
 Task-Management-System/
 │
-├── frontend/
-│   ├── login.html
-│   ├── register.html
-│   ├── dashboard.html
-│   └── tasks.html
+├── frontend/                  # All user-facing pages
+│   ├── login.html             # Login page
+│   ├── register.html          # Registration page
+│   ├── dashboard.html         # Main dashboard
+│   └── tasks.html             # Task listing page
 │
-├── backend/
-│   ├── login.php
-│   ├── register.php
-│   ├── add_task.php
-│   ├── edit_task.php
-│   ├── delete_task.php
-│   └── logout.php
+├── backend/                   # PHP server-side scripts
+│   ├── login.php              # Handles login logic
+│   ├── register.php           # Handles user registration
+│   ├── add_task.php           # Creates a new task
+│   ├── edit_task.php          # Updates an existing task
+│   ├── delete_task.php        # Deletes a task
+│   └── logout.php             # Ends user session
 │
 ├── database/
-│   └── database.sql
+│   └── database.sql           # SQL schema and seed data
 │
-├── assets/
-    ├── css/
-    └── js/
+└── assets/
+    ├── css/                   # Stylesheets
+    └── js/                    # JavaScript files
+```
 
 ---
 
-## Testing
+## 🚀 Getting Started
 
-- Unit Testing  
-- Integration Testing  
-- Functional Testing  
-- UI Testing  
-- Security Testing  
+Follow these steps to run the project locally:
 
----
+### Prerequisites
+- [XAMPP](https://www.apachefriends.org/) installed on your machine
 
-## Advantages
+### Steps
 
-- Simple and easy to use  
-- Fast and lightweight  
-- Secure authentication  
-- Full CRUD functionality  
-- Responsive design  
+1. **Clone or download** this repository into your XAMPP `htdocs` folder:
+   ```
+   C:/xampp/htdocs/Task-Management-System/
+   ```
 
----
+2. **Start XAMPP** and enable **Apache** and **MySQL** from the XAMPP Control Panel.
 
-## Limitations
+3. **Set up the database:**
+   - Open your browser and go to `http://localhost/phpmyadmin`
+   - Create a new database (e.g., `task_db`)
+   - Import the file `database/database.sql` into that database
 
-- Requires local server (XAMPP)  
-- No mobile app  
-- No notifications/reminders  
-- No multi-user collaboration  
+4. **Run the application:**
+   - Open your browser and navigate to:
+     ```
+     http://localhost/Task-Management-System/frontend/login.html
+     ```
 
----
-
-## Future Improvements
-
-- Task reminders  
-- Mobile application  
-- Multi-user collaboration  
-- Cloud deployment  
-- Calendar integration  
-- Analytics dashboard  
+5. **Register** a new account and start managing your tasks!
 
 ---
 
-## Authors
+## 🧪 Testing
 
-- Rishab Talukdar  
-- Twinkle Sonowal  
-- N. Panthoiba Singha  
+The following types of testing were performed during development:
 
----
-
-## Academic Info
-
-Developed as part of the BCA program.
+- ✅ **Unit Testing** — Individual functions and components
+- ✅ **Integration Testing** — Frontend ↔ Backend communication
+- ✅ **Functional Testing** — End-to-end feature validation
+- ✅ **UI Testing** — Layout, responsiveness, and usability
+- ✅ **Security Testing** — Authentication and input validation
 
 ---
 
-## References
+## ⚠️ Known Limitations
 
-- https://www.w3schools.com  
-- https://www.php.net  
-- https://www.mysql.com  
-
----
-
-## License
-
-This project is for educational purposes.
+- Requires a local server (XAMPP) — not accessible online out of the box
+- No mobile application
+- No task reminders or notifications
+- No multi-user collaboration or team features
 
 ---
 
-If you like this project, consider giving it a star ⭐
+## 🔮 Future Improvements
+
+Planned enhancements for future versions:
+
+- [ ] ☁️ Cloud deployment (accessible from anywhere)
+- [ ] 📱 Mobile application (Android / iOS)
+- [ ] 🔔 Task reminders and email notifications
+- [ ] 👥 Multi-user collaboration and task sharing
+- [ ] 📅 Calendar integration
+- [ ] 📈 Analytics dashboard
+
+---
+
+## 👨‍💻 Authors
+
+| Name |
+|---|
+| Rishab Talukdar |
+| Twinkle Sonowal |
+| N. Panthoiba Singha |
+
+---
+
+## 📚 References
+
+- [W3Schools](https://www.w3schools.com) — HTML, CSS, JavaScript reference
+- [PHP Documentation](https://www.php.net) — Official PHP docs
+- [MySQL Documentation](https://www.mysql.com) — Official MySQL docs
+
+---
+
+## 📄 License
+
+This project was created for **educational purposes** as part of a BCA academic program. It is not intended for commercial use.
+
+---
+
+<div align="center">
+
+If you found this project helpful, consider giving it a ⭐ — it means a lot!
+
+</div>
