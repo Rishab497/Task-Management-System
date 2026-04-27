@@ -1,10 +1,10 @@
-# 📌 Task Management System
+# Task Management System
 
 A full-stack web application to **organize, track, and manage daily tasks** efficiently with a simple and user-friendly interface.
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 The Task Management System is a browser-based application that allows users to:
 - Create, update, and delete tasks  
@@ -14,7 +14,7 @@ The Task Management System is a browser-based application that allows users to:
 
 ---
 
-## 🎯 Purpose
+## Purpose
 
 This project provides a **structured digital solution** to overcome:
 - Disorganized task tracking  
@@ -23,20 +23,20 @@ This project provides a **structured digital solution** to overcome:
 
 ---
 
-## ✨ Features
+## Features
 
-- 🔐 User Registration & Login  
-- ➕ Add Tasks  
-- ✏️ Edit Tasks  
-- ❌ Delete Tasks  
-- 📂 Task Categorization  
-- 📊 Task Status Tracking  
-- ⚡ Dynamic UI updates  
-- 🔒 Secure Authentication  
+- User Registration & Login  
+- Add Tasks  
+- Edit Tasks  
+- Delete Tasks  
+- Task Categorization  
+- Task Status Tracking  
+- Dynamic UI updates  
+- Secure Authentication  
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 **Frontend:**
 - HTML  
@@ -54,7 +54,7 @@ This project provides a **structured digital solution** to overcome:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 Task-Management-System/
 │
 ├── frontend/
@@ -80,7 +80,7 @@ Task-Management-System/
 
 ---
 
-## 🧪 Testing
+## Testing
 
 - Unit Testing  
 - Integration Testing  
@@ -90,7 +90,7 @@ Task-Management-System/
 
 ---
 
-## 📈 Advantages
+## Advantages
 
 - Simple and easy to use  
 - Fast and lightweight  
@@ -100,7 +100,7 @@ Task-Management-System/
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 - Requires local server (XAMPP)  
 - No mobile app  
@@ -109,7 +109,7 @@ Task-Management-System/
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - Task reminders  
 - Mobile application  
@@ -120,7 +120,7 @@ Task-Management-System/
 
 ---
 
-## 👨‍💻 Authors
+## Authors
 
 - Rishab Talukdar  
 - Twinkle Sonowal  
@@ -128,13 +128,13 @@ Task-Management-System/
 
 ---
 
-## 🎓 Academic Info
+## Academic Info
 
 Developed as part of the BCA program.
 
 ---
 
-## 📚 References
+## References
 
 - https://www.w3schools.com  
 - https://www.php.net  
@@ -142,12 +142,10 @@ Developed as part of the BCA program.
 
 ---
 
-## 📜 License
+## License
 
 This project is for educational purposes.
 
 ---
-
-## ⭐
 
 If you like this project, consider giving it a star ⭐
