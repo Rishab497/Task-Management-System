@@ -58,25 +58,25 @@ This project provides a **structured digital solution** to overcome:
 Task-Management-System/
 │
 ├── frontend/
-│ ├── login.html
-│ ├── register.html
-│ ├── dashboard.html
-│ └── tasks.html
+│   ├── login.html
+│   ├── register.html
+│   ├── dashboard.html
+│   └── tasks.html
 │
 ├── backend/
-│ ├── login.php
-│ ├── register.php
-│ ├── add_task.php
-│ ├── edit_task.php
-│ ├── delete_task.php
-│ └── logout.php
+│   ├── login.php
+│   ├── register.php
+│   ├── add_task.php
+│   ├── edit_task.php
+│   ├── delete_task.php
+│   └── logout.php
 │
 ├── database/
-│ └── database.sql
+│   └── database.sql
 │
-└── assets/
-├── css/
-└── js/
+├── assets/
+    ├── css/
+    └── js/
 
 ---
 
